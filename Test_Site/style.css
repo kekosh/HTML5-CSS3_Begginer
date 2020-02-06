@@ -9,6 +9,11 @@ body {
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "MS Pゴシック", "MS PGothic", sans-serif;
 }
 
+p {
+    font-size: 12px;
+    line-height: 150%;
+}
+
 #container {
     width: 900px;
     height: 600px;
@@ -187,10 +192,53 @@ main #Side_navi {
 }
 
 main #Main_box {
-    height: 300px;
+    height: auto;
     width: 450px;
     float: left;
     margin: 30px 0px 0px 20px;
+}
+
+#Main_box .Mainbox_item {
+    width: 450px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#Main_box .Mainbox_item .MainTitle {
+    background-image: url("images/MainTitle.gif");
+    width: 450px;
+    height: 25px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+#Main_box .Mainbox_item .MainTitle h2 {
+    font-size: 12px;
+    color: 4A4A4A;
+    margin: 0 0 0 10px;
+    padding: 1px;
+}
+
+#Main_box .Mainbox_item .Mainbox_right {
+    font-size: 11px;
+    float: right;
+    width: 250px;
+}
+
+#Main_box .Mainbox_item img {
+    float: left;
+}
+
+#Main_box .Mainbox_item a {
+    color: #F63;
+}
+
+#Main_box .Mainbox_item .Mainbox_news {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: 747474;
+    border-bottom-style: solid;
 }
 
 main #Banner_box {
@@ -200,8 +248,19 @@ main #Banner_box {
     margin-top: 30px;
 }
 
+main #Banner_box .BannerImg_right {
+    width: 92px;
+    float: right;
+}
+
+
 footer {
+    clear: both;
     height: 20px;
     width: 900px;
     background-color: black;
+    font-size: 10px;
+    text-align: center;
+    color: #FFF;
+    line-height: 17px;
 }
