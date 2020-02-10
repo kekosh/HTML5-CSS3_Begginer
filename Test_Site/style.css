@@ -56,9 +56,8 @@ header #Navi_area ul {
 }
 
 header #Navi_area li {
-    display: inline;
     float: right;
-    width: 70px;
+    width: 80px;
     border-left-style: solid;
     border-left-width: 1px;
     border-left-color: black;
@@ -109,7 +108,7 @@ main #Side_navi {
     margin: 0px;
     width: 210px;
     height: 47px;
-    background: url("images/SideNavi_Top_out.gif") no-repeat;
+    background: url("images/SideNavi_Top_over.gif") no-repeat;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: black;
@@ -241,6 +240,39 @@ main #Main_box {
     border-bottom-style: solid;
 }
 
+#Mainbox_sub .Mainbox_item {
+    width: 650px;
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    border-bottom-color: #333;
+    border-bottom-style: solid;
+}
+
+#Mainbox_sub .Mainbox_item .Item_title {
+    height: 30px;
+    width: 645px;
+    margin-bottom: 20px;
+    border-top-width: 20px;
+    border-top-color: #CCC;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-left-color: #CCC;
+    border-left-style: solid;
+}
+
+#Mainbox_sub .Mainbox_item .Item_title h3 {
+    font-size: 14px;
+    margin-top: 5px;
+    color: purple;
+    padding-left: 10px;
+}
+
+#Mainbox_sub .Mainbox_item .Item_text {
+    width: 280px;
+    float: right;
+    margin-right: 5px;
+}
+
 main #Banner_box {
     height: 300px;
     width: 200px;
@@ -263,4 +295,50 @@ footer {
     text-align: center;
     color: #FFF;
     line-height: 17px;
+    margin: 0 auto 0 auto;
+}
+
+main #Mainbox_sub {
+    width: 650px;
+    height: 900px;
+    float: left;
+    margin: 30px 0px 20px 40px;
+}
+
+main #Mainbox_sub .SubPage_title {
+    width: 650px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-image: url(images/SubPage_title.gif);
+}
+
+main #Mainbox_sub .SubPage_title h2 {
+    font-size: 12px;
+    color: #474747;
+    padding: 4px 0 0 40px;
+}
+
+main #Mainbox_sub .Corporate_title {
+    width: 643px;
+    height: 20px;
+    margin-bottom: 2px;
+    border-left-width: 7px;
+    border-left-style: solid;
+    border-left-color: #8a8a8a;
+}
+
+main #Mainbox_sub .Corporate_title h3 {
+    font-size: 12px;
+    padding-top: 1px;
+    padding-left: 10px;
+}
+
+table {
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+td {
+    height: 25px;
+    padding: 2px 0px 2px 10px;
 }
