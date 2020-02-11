@@ -1,0 +1,13 @@
+form {
+    width: 650px;
+}
+
+form p {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 2px solid #FFF;
+    font-size: 12px;
+    background: linear-gradient(#FFF, #6FC);
+    -moz-background: linear-gradient(#FFF, #6FC);
+    -webkit-background: linear-gradient(#FFF, #6FC);
+}
